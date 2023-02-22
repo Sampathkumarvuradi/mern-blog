@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+a {
+  cursor: pointer;
+}
 body {
   color: #222;
 }
@@ -80,13 +83,13 @@ input {
   background-color: #fff;
 }
 button {
+  cursor: pointer;
   width: 100%;
   display: block;
   background-color: #555;
   border: 0;
   color: #fff;
   padding: 7px 0;
-  cursor: pointer;
 }
 form.login h1,
 form.register h1 {
@@ -124,4 +127,21 @@ form.register h1 {
 }
 .post-page .content p {
   line-height: 1.6rem;
+}
+.edit-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+a.edit-btn {
+  background-color: #333;
+  display: inline-flex;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  align-items: center;
+  gap: 5px;
+}
+a svg {
+  height: 20px;
 }
